@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Admin Dashboard</title>
+</head>
+<body>
+    <div class="main-container">
+        <nav>
+            <div class="logo-container">
+                <span class="dashboard-content">
+                    <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                        <path fill="White" d="M21,16V4H3V16H21M21,2A2,2 0 0,1 23,4V16A2,2 0 0,1 21,18H14V20H16V22H8V20H10V18H3C1.89,18 1,17.1 1,16V4C1,2.89 1.89,2 3,2H21M5,6H14V11H5V6M15,6H19V8H15V6M19,9V14H15V9H19M5,12H9V14H5V12M10,12H14V14H10V12Z" />
+                    </svg>
+                    <a href="" class="centralize-text">Dashboard</a>
+                </span>
+                <span class="main-content-container">
+                    <span class="main-content">
+                        <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                            <path fill="White" d="M9,13H15V19H18V10L12,5.5L6,10V19H9V13M4,21V9L12,3L20,9V21H4Z" />
+                        </svg>
+                        <a href="" class="centralize-text">Home</a>
+                    </span>
+                    <span class="main-content">
+                        <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                            <path fill="White" d="M8,9A2,2 0 0,1 10,11A2,2 0 0,1 8,13A2,2 0 0,1 6,11A2,2 0 0,1 8,9M12,17H4V16C4,14.67 6.67,14 8,14C9.33,14 12,14.67 12,16V17M20,8H14V10H20V8M20,12H14V14H20V12M20,16H14V18H20V16M22,4H14V6H22V20H2V6H10V4H2A2,2 0 0,0 0,6V20A2,2 0 0,0 2,22H22A2,2 0 0,0 24,20V6A2,2 0 0,0 22,4M13,6H11V2H13V6Z" />
+                        </svg>
+                        <a href="" class="centralize-text">Profile</a>
+                    </span>
+                    <span class="main-content">
+                        <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                            <path fill="White" d="M22,4C22,2.89 21.1,2 20,2H4A2,2 0 0,0 2,4V16A2,2 0 0,0 4,18H18L22,22V4Z" />
+                        </svg>
+                        <a href="" class="centralize-text">Messages</a>
+                    </span>
+                    <span class="main-content">
+                        <svg  style="width:24px;height:24px" viewBox="0 0 24 24">
+                            <path fill="White" d="M13.5,8H12V13L16.28,15.54L17,14.33L13.5,12.25V8M13,3A9,9 0 0,0 4,12H1L4.96,16.03L9,12H6A7,7 0 0,1 13,5A7,7 0 0,1 20,12A7,7 0 0,1 13,19C11.07,19 9.32,18.21 8.06,16.94L6.64,18.36C8.27,20 10.5,21 13,21A9,9 0 0,0 22,12A9,9 0 0,0 13,3" />
+                        </svg>
+                        <a href="" class="centralize-text">History</a>
+                    </span>
+                    <span class="main-content">
+                        <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                            <path fill="White" d="M16 0H8C6.9 0 6 .9 6 2V18C6 19.1 6.9 20 8 20H20C21.1 20 22 19.1 22 18V6L16 0M20 18H8V2H15V7H20V18M4 4V22H20V24H4C2.9 24 2 23.1 2 22V4H4M10 10V12H18V10H10M10 14V16H15V14H10Z" />
+                        </svg>
+                        <a href="" class="centralize-text">Tasks</a>
+                    </span>
+                    <span class="main-content">
+                        <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                            <path fill="White" d="M12,5A3.5,3.5 0 0,0 8.5,8.5A3.5,3.5 0 0,0 12,12A3.5,3.5 0 0,0 15.5,8.5A3.5,3.5 0 0,0 12,5M12,7A1.5,1.5 0 0,1 13.5,8.5A1.5,1.5 0 0,1 12,10A1.5,1.5 0 0,1 10.5,8.5A1.5,1.5 0 0,1 12,7M5.5,8A2.5,2.5 0 0,0 3,10.5C3,11.44 3.53,12.25 4.29,12.68C4.65,12.88 5.06,13 5.5,13C5.94,13 6.35,12.88 6.71,12.68C7.08,12.47 7.39,12.17 7.62,11.81C6.89,10.86 6.5,9.7 6.5,8.5C6.5,8.41 6.5,8.31 6.5,8.22C6.2,8.08 5.86,8 5.5,8M18.5,8C18.14,8 17.8,8.08 17.5,8.22C17.5,8.31 17.5,8.41 17.5,8.5C17.5,9.7 17.11,10.86 16.38,11.81C16.5,12 16.63,12.15 16.78,12.3C16.94,12.45 17.1,12.58 17.29,12.68C17.65,12.88 18.06,13 18.5,13C18.94,13 19.35,12.88 19.71,12.68C20.47,12.25 21,11.44 21,10.5A2.5,2.5 0 0,0 18.5,8M12,14C9.66,14 5,15.17 5,17.5V19H19V17.5C19,15.17 14.34,14 12,14M4.71,14.55C2.78,14.78 0,15.76 0,17.5V19H3V17.07C3,16.06 3.69,15.22 4.71,14.55M19.29,14.55C20.31,15.22 21,16.06 21,17.07V19H24V17.5C24,15.76 21.22,14.78 19.29,14.55M12,16C13.53,16 15.24,16.5 16.23,17H7.77C8.76,16.5 10.47,16 12,16Z" />
+                        </svg>
+                        <a href="" class="centralize-text">Community</a>
+                    </span>              
+                </span>
+                <span class="misc-content-container">
+                    <span class="misc-content">
+                        <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                            <path fill="White" d="M12,15.5A3.5,3.5 0 0,1 8.5,12A3.5,3.5 0 0,1 12,8.5A3.5,3.5 0 0,1 15.5,12A3.5,3.5 0 0,1 12,15.5M19.43,12.97C19.47,12.65 19.5,12.33 19.5,12C19.5,11.67 19.47,11.34 19.43,11L21.54,9.37C21.73,9.22 21.78,8.95 21.66,8.73L19.66,5.27C19.54,5.05 19.27,4.96 19.05,5.05L16.56,6.05C16.04,5.66 15.5,5.32 14.87,5.07L14.5,2.42C14.46,2.18 14.25,2 14,2H10C9.75,2 9.54,2.18 9.5,2.42L9.13,5.07C8.5,5.32 7.96,5.66 7.44,6.05L4.95,5.05C4.73,4.96 4.46,5.05 4.34,5.27L2.34,8.73C2.21,8.95 2.27,9.22 2.46,9.37L4.57,11C4.53,11.34 4.5,11.67 4.5,12C4.5,12.33 4.53,12.65 4.57,12.97L2.46,14.63C2.27,14.78 2.21,15.05 2.34,15.27L4.34,18.73C4.46,18.95 4.73,19.03 4.95,18.95L7.44,17.94C7.96,18.34 8.5,18.68 9.13,18.93L9.5,21.58C9.54,21.82 9.75,22 10,22H14C14.25,22 14.46,21.82 14.5,21.58L14.87,18.93C15.5,18.67 16.04,18.34 16.56,17.94L19.05,18.95C19.27,19.03 19.54,18.95 19.66,18.73L21.66,15.27C21.78,15.05 21.73,14.78 21.54,14.63L19.43,12.97Z" />
+                        </svg>
+                        <a href="" class="centralize-text">Settings</a>
+                    </span>
+                    <span class="misc-content">
+                        <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                            <path fill="White" d="M11,18H13V16H11V18M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,6A4,4 0 0,0 8,10H10A2,2 0 0,1 12,8A2,2 0 0,1 14,10C14,12 11,11.75 11,15H13C13,12.75 16,12.5 16,10A4,4 0 0,0 12,6Z" />
+                        </svg>
+                        <a href="" class="centralize-text">Support</a>
+                    </span>
+                    <span class="misc-content">
+                        <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                            <path fill="White" d="M12,17A2,2 0 0,0 14,15C14,13.89 13.1,13 12,13A2,2 0 0,0 10,15A2,2 0 0,0 12,17M18,8A2,2 0 0,1 20,10V20A2,2 0 0,1 18,22H6A2,2 0 0,1 4,20V10C4,8.89 4.9,8 6,8H7V6A5,5 0 0,1 12,1A5,5 0 0,1 17,6V8H18M12,3A3,3 0 0,0 9,6V8H15V6A3,3 0 0,0 12,3Z" />
+                        </svg>
+                        <a href="" class="centralize-text">Privacy</a>
+                    </span>               
+                </span>         
+            </div>
+            
+        </nav>
+        <section class="upper-menue">
+            <div class="personal-container">
+                <div class="searchbar">
+                    <input type="image" src="ressources/svgs/search.svg" width="25" alt="search-action">
+                    <input type="text" name="search-query"></button>
+                </div>
+                <div class="personal">
+                    <input type="image" src="ressources/svgs/bell.svg" width="25" alt="bell-notification">
+                    <input class="profile-picture" type="image" src="ressources/imgs/cat_pp.jpg" alt="personal-pp">
+                    <p>Kedi Bey</p>
+                </div>
+            </div>
+            <div class="welcoming-msg">
+                <div class="msg">
+                    <input class="profile-picture" type="image" src="ressources/imgs/cat_pp.jpg" alt="personal-pp">
+                    <div class="greeting">
+                        <p style="font-size: 15px; margin-bottom: 15px;">Hi there,</p>
+                        <p>Kedi Bey (@kedibey)</p>
+                    </div>
+                </div>
+                <div class="status-methods">
+                   <button type="button">New</button>
+                   <button type="button">Upload</button>
+                   <button type="button">Share</button>
+                </div>
+            </div>
+        </section>
+        <main>
+            <div class="your-projects">
+                <p class="general-caption">Your Projects</p>
+                <div class="project-container">
+                    <div class="project-content">
+                        <p>
+                            <span class="general-caption">
+                                Super Cool Project
+                            </span>
+                            <br>
+                            <span class="project-description">
+                                Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit
+                            </span>
+                        </p>
+                        <div class="project-interactions">
+                            <ul>
+                                <li><input type="image" src="ressources/svgs/favorites.svg" width="25" alt="favorites"></li>
+                                <li><input type="image" src="ressources/svgs/mark.svg" width="25" alt="marking"></li>
+                                <li><input type="image" src="ressources/svgs/share.svg" width="25" alt="share"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <p>
+                            <span class="general-caption">
+                                Less Cool Project
+                            </span>
+                            <br>
+                            <span class="project-description">
+                                In hac habitasse platea dictumst. Quisque semper eleifend eleifend. Nullam pretium euismod pulvinar. Proin convallis.
+                            </span>
+                        </p>
+                        <div class="project-interactions">
+                            <ul>
+                                <li><input type="image" src="ressources/svgs/favorites.svg" width="25" alt="favorites"></li>
+                                <li><input type="image" src="ressources/svgs/mark.svg" width="25" alt="marking"></li>
+                                <li><input type="image" src="ressources/svgs/share.svg" width="25" alt="share"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <p><span class="general-caption">
+                            Impossible App
+                        </span>
+                            <br>
+                        <span class="project-description">
+                            Pellentesque accumsan volutpat neque, non eleifend dolor scelerisque ac. Praesent in neque sed dui lobortis.
+                        </span>
+                        </p>
+                        <div class="project-interactions">
+                            <ul>
+                                <li><input type="image" src="ressources/svgs/favorites.svg" width="25" alt="favorites"></li>
+                                <li><input type="image" src="ressources/svgs/mark.svg" width="25" alt="marking"></li>
+                                <li><input type="image" src="ressources/svgs/share.svg" width="25" alt="share"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <p><span class="general-caption">Easy Peasy App</span>
+                            <br>
+                            <span class="project-description">
+                                Vestibulum et est nibh. Integer at dapibus nisi. Sed tincidunt lacinia risus, ut viverra sem.
+                            </span>
+                        </p>
+                        <div class="project-interactions">
+                            <ul>
+                                <li><input type="image" src="ressources/svgs/favorites.svg" width="25" alt="favorites"></li>
+                                <li><input type="image" src="ressources/svgs/mark.svg" width="25" alt="marking"></li>
+                                <li><input type="image" src="ressources/svgs/share.svg" width="25" alt="share"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <p><span class="general-caption">Ad Blocker</span> 
+                            <br>
+                            <span class="project-description">
+                                Aenean accumsan, metus sed luctus consectetur, nisi est ornare urna, non varius quam nunc at.
+                            </span>
+                        </p>
+                        <div class="project-interactions">
+                            <ul>
+                                <li><input type="image" src="ressources/svgs/favorites.svg" width="25" alt="favorites"></li>
+                                <li><input type="image" src="ressources/svgs/mark.svg" width="25" alt="marking"></li>
+                                <li><input type="image" src="ressources/svgs/share.svg" width="25" alt="share"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <p>
+                            <span class="general-caption">
+                            Money Maker
+                            </span>
+                            <br>
+                            <span class="project-description">
+                                Morbi in sodales justo. Quisque id turpis nec diam lacinia rhoncus. Nulla eu nunc at.
+                            </span>
+                        <div class="project-interactions">
+                            <ul>
+                                <li><input type="image" src="ressources/svgs/favorites.svg" width="25" alt="favorites"></li>
+                                <li><input type="image" src="ressources/svgs/mark.svg" width="25" alt="marking"></li>
+                                <li><input type="image" src="ressources/svgs/share.svg" width="25" alt="share"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="announcements">
+                <p class="general-caption">Announcements</p>
+                <div class="announcement-container">
+                    <div class="announcement-content">
+                        <p>
+                            <span class="announcement-caption">Site Maintenance</span>
+                            <br>
+                            <span class="announcement-description">
+                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                            </span> 
+                        </p>
+                        <hr>
+                    </div>
+                    
+                    <div class="announcement-content">
+                        <p>
+                            <span class="announcement-caption">
+                            Community Share Day
+                            </span> 
+                            <br>
+                            <span class="announcement-description">
+                                Donec mattis vitae leo eget faucibus. Vivamus malesuada purus nec lacus convallis.
+                            </span>
+                        </p>            
+                        <hr>
+                    </div>
+                    
+                    <div class="announcement-content">
+                        <p><span class="announcement-caption">
+                            Updated Privacy Policy
+                        </span> 
+                        <br>
+                        <span class="announcement-description">
+                            Mauris enim est, ultricies eget blandit quis, imperdiet sed ligula. Pellentesque faucibus.            
+                        </span> 
+                        </p> 
+                    </div>
+                </div>
+            </div>
+            <div class="trending">
+                <p class="general-caption">Trending</p>
+                <div class="trending-container">
+                    <div class="trending-profile">
+                        <input class="trending-pp" type="image" src="ressources/imgs/cat_outside_pp.jpg" width="25" alt="trending-user-pp">
+                        <span class="trending-user-information">
+                            <p>@sarışın</p>
+                            <p>fotoğrafçı</p>
+                        </span>                    
+                    </div>
+                    <div class="trending-profile">
+                        <input type="image" class="trending-pp" src="ressources/imgs/grey_cat_pp.jpg" width="25" alt="trending-user-pp">
+                        <span class="trending-user-information">
+                            <p>@karizmartik</p>
+                            <p>yazar</p>
+                        </span>   
+                    </div>
+                    <div class="trending-profile">
+                        <input type="image" class="trending-pp" src="ressources/imgs/cat_window_pp.jpg" width="25" alt="trending-user-pp">
+                        <span class="trending-user-information">
+                            <p>@gizem</p>
+                            <p>psikolog</p>
+                        </span>   
+                    </div>
+                    <div class="trending-profile">
+                        <input type="image" class="trending-pp" src="ressources/imgs/orange_cat_pp.jpg" width="25" alt="trending-user-pp">
+                        <span class="trending-user-information">
+                            <p>@zenginkedi</p>
+                            <p>ekonomist</p>
+                        </span>   
+                    </div>
+                </div>      
+            </div>
+        </main>
+    </div>
+</body>
+</html>
